@@ -9,3 +9,4 @@ transformers
 sounddevice
 numpy
 python-dotenv
+langchain-groq
