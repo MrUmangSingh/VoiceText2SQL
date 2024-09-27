@@ -1,0 +1,11 @@
+torch
+ollama
+mysql-connector-python
+langchain_community
+langchain_core
+streamlit
+sqlalchemy
+transformers
+sounddevice
+numpy
+python-dotenv
