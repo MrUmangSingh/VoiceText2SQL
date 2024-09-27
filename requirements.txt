@@ -10,3 +10,4 @@ sounddevice
 numpy
 python-dotenv
 langchain-groq
+pyaudio
