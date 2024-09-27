@@ -6,3 +6,4 @@
 
 There are 2 files, app.py and main.py if you want to run llama model in groqcloud then use main.py file to as "streamlit run main.py"
 But if you want to run the llama model locally in your system then install ollama and download model llama3 using "ollama pull llama3" in terminal and then run the app.py file as streamlit.
+IN .env file add your groqcloud api to use the main.py file.
