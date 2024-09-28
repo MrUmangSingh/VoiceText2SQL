@@ -15,6 +15,7 @@ def install_package():
     try:
         # Running the pip install command with -q (quiet) and -U (upgrade)
         subprocess.check_call([sys.executable, "-m", "pip", "install", "-qU", "langchain-groq"])
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
         print("Package 'langchain-groq' installed/upgraded successfully.")
     except subprocess.CalledProcessError as e:
         print(f"An error occurred while installing/upgrading 'langchain-groq': {e}")
